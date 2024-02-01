@@ -1,5 +1,27 @@
 # Changelog
 
+## \[2.0.0-alpha.22]
+
+### New Features
+
+- [`7fcc0bcd`](https://www.github.com/tauri-apps/tauri/commit/7fcc0bcd3482bbc8771e330942ef6cd78cc8ec35)([#8490](https://www.github.com/tauri-apps/tauri/pull/8490)) Add plugin initialization rust code when using `tauri add`
+- [`1878766f`](https://www.github.com/tauri-apps/tauri/commit/1878766f7f81a03b0f0b87ec33ee113d7aa7a902)([#8667](https://www.github.com/tauri-apps/tauri/pull/8667)) Migrate the allowlist config to the new capability file format.
+
+### Enhancements
+
+- [`d6c7568c`](https://www.github.com/tauri-apps/tauri/commit/d6c7568c27445653edf570f3969163bc358ba2ba)([#8720](https://www.github.com/tauri-apps/tauri/pull/8720)) Add `files` option to the AppImage Configuration.
+- [`b3209bb2`](https://www.github.com/tauri-apps/tauri/commit/b3209bb28bb379d5046d577c7e42319d6e76ced0)([#8688](https://www.github.com/tauri-apps/tauri/pull/8688)) Ignore global `.gitignore` when searching for tauri directory.
+- [`f492efd7`](https://www.github.com/tauri-apps/tauri/commit/f492efd7144fdd8d25cac0c4d2389a95ab75fb02)([#8666](https://www.github.com/tauri-apps/tauri/pull/8666)) Update app and plugin template following the new access control permission model.
+
+### Bug Fixes
+
+- [`9cb9aa79`](https://www.github.com/tauri-apps/tauri/commit/9cb9aa7978f231f7da238b33d6ab33fdd2d2c842)([#8672](https://www.github.com/tauri-apps/tauri/pull/8672)) Allow license field in Cargo.toml to be `{ workspace = true }`
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.0.0-alpha.14`
+- Upgraded to `tauri-bundler@2.0.0-alpha.15`
+
 ## \[2.0.0-alpha.21]
 
 ### New Features
