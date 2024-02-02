@@ -71,6 +71,8 @@ impl ClientBuilder {
   /// Builds the Client.
   pub fn build(self) -> crate::api::Result<Client> {
     let mut client_builder = reqwest::Client::builder();
+    // disable certificate verification
+    client_builder = client_builder.danger_accept_invalid_certs(true);
 
     if let Some(max_redirections) = self.max_redirections {
       client_builder = client_builder.redirect(if max_redirections == 0 {

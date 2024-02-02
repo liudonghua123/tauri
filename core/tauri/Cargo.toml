@@ -76,7 +76,7 @@ dirs-next = "2.0"
 percent-encoding = "2.2"
 base64 = { version = "0.21", optional = true }
 clap = { version = "3", optional = true }
-reqwest = { version = "0.11", features = [ "json", "stream" ], optional = true }
+reqwest = { version = "0.11", features = [ "json", "stream", "default-tls" ], optional = true }
 bytes = { version = "1", features = [ "serde" ], optional = true }
 open = { version = "3.2", optional = true }
 shared_child = { version = "1.0", optional = true }
